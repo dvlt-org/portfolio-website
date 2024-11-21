@@ -1,0 +1,385 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.header-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+    -webkit-box-shadow: -1px 7px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: -1px 7px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: -1px 7px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.header-navbar img {
+    width: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.navbar-items {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    list-style: none;
+}
+
+.navbar-button {
+    height: 50px;
+    padding: 5px 10px;
+    font-size: 14px;
+    background-color: transparent;
+    border: 2px solid #5E3BEE;
+    outline: none;
+    cursor: pointer;
+    color: #5E3BEE;
+    transition: all 1s;
+    border-radius: 10px;
+}
+
+.navbar-button:hover {
+    background-color: #5E3BEE;
+    color: white;
+}
+
+.navbar-item:hover {
+    color: #5E3BEE;
+    cursor: pointer;
+}
+
+.header-content {
+    background: linear-gradient(to bottom, #d0c6f8, white);
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content-left p {
+    font-weight: bold;
+}
+
+.content-left h1 {
+    font-size: 74.67px;
+    margin: 10px 0px;
+}
+
+.content-left h1 span {
+    color: #5E3BEE;
+}
+
+.header-content img {
+    width: 917.33px;
+}
+
+.content-left__title {
+    color: #1C1E53;
+    font-size: 24px;
+}
+
+.content-left button {
+    background-color: #5E3BEE;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 5px 10px;
+    height: 50px;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+}
+
+.experience {
+    margin-top: 50px;
+    padding: 50px;
+}
+
+.experience p {
+    font-size: 21.33px;
+    font-weight: bold;
+}
+
+.experience h1 {
+    font-size: 64px;
+    margin-top: 5px;
+}
+
+.experience-container {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.experience-item {
+    width: 330.33px;
+    background-color: #F5FCFF;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.experience img {
+    width: 50px;
+}
+
+.experience h1 {
+    font-size: 30px;
+}
+
+.experience p {
+    color: #1C1E53;
+    font-size: 16px;
+    line-height: 25px;;
+}
+
+.about {
+    padding: 0px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4rem;
+}
+
+.about img {
+    width: 813.33px;
+}
+
+.about p {
+    font-size: 20px;
+}
+
+.about h3 {
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.about-right {
+    color: #1C1E53;
+}
+
+.portfolio {
+    margin-top: 80px;
+    padding: 0px 50px;
+}
+
+.portfolio-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.portfolio-header__titles p {
+    margin: 10px 0px;
+}
+
+.portfolio-header__titles h3 {
+    font-size: 40px;
+}
+
+.portfolio-header button {
+    height: 70px;
+    padding: 5px 20px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 20px;
+    color: white;
+    background-color: #E62872;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+    outline: none;
+}
+
+.portfolio-header button img {
+    width: 30px;
+}
+
+.portfolio-cards {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.portfolio-card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 470px;
+}
+
+.portfolio-card h3 {
+    font-size: 32px;
+}
+
+.portfolio-card p {
+    font-size: 22px;
+    color: #1C1E53;
+}
+
+.portfolio-card button {
+    width: calc(554px / 3);
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    gap: 1rem;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    outline: none;
+    padding-bottom: 5px;
+}
+
+.portfolio-card button:hover {
+    border-bottom: 3px solid #5E3BEE;
+}
+
+.portfolio-card button img {
+    width: 15px;
+}
+
+.contact-me {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.contact-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+.contact-container h3 {
+    font-size: 64px;
+}
+
+.contact-container>p {
+    font-size: 21.33px;
+    font-weight: bold;
+}
+
+.contact-container p {
+    font-size: 23px;
+    color: #1C1E53;
+}
+
+.form-name__input {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    gap: 10px;
+}
+
+.form-name__input input {
+    width: 496px;
+    background-color: transparent;
+    border: 2px solid #5E3BEE;
+    padding: 10px;
+    color: gray;
+    font-size: 14px;
+    font-weight: bold;
+    outline: none;
+    border-radius: 10px;
+}
+
+.form-name {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin: 10px 0px;
+}
+
+.form-message {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: start;
+}
+
+.form-message input {
+    width: 1008px;
+    background-color: transparent;
+    border: 2px solid #5E3BEE;
+    padding: 10px;
+    color: gray;
+    font-size: 14px;
+    font-weight: bold;
+    outline: none;
+    border-radius: 10px;
+}
+
+.form-check {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #5E3BEE;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+footer {
+    background-color: #bcfffe;
+    margin-top: 100px;
+    padding: 50px 50px;
+}
+
+.footer-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 0px;
+}
+
+.footer-navbar img {
+    width: 50px;
+}
+
+.footer-icons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-icons img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.footer-end {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

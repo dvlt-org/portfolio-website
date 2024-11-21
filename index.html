@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <title>Portfolio Web</title>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <nav class="header-navbar">
+            <div class="navbar-logo">
+                <img src="./assets/logo.webp" alt="logo webp">
+            </div>
+            <div class="navbar-items">
+                <li class="navbar-item active">Home</li>
+                <li class="navbar-item">Portfolio</li>
+                <li class="navbar-item">About me</li>
+                <li class="navbar-item">Contact</li>
+            </div>
+            <button class="navbar-button">Contact me</button>
+        </nav>
+        <div class="header-content">
+            <div class="content-left">
+                <p>Hey, I am John</p>
+                <h1>I create <span>
+                        product design
+                    </span> and brand experience</h1>
+                <p class="content-left__title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                    varius enim in eros elementum
+                    tristique.</p>
+                <button class="content-left__button">Get In Touch</button>
+            </div>
+            <div class="content-right">
+                <img src="./assets/contentImage.png" alt="content image">
+            </div>
+        </div>
+    </header>
+    <section class="experience">
+        <p>My Skills</p>
+        <h1>My Expertise</h1>
+        <div class="experience-container">
+            <div class="experience-item">
+                <img src="./assets/item1.png" alt="item 1">
+                <h1>Strategy & Direction</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum
+                    tristique.</p>
+            </div>
+            <div class="experience-item">
+                <img src="./assets/item2.png" alt="item 2">
+                <h1>Branding & Logo</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum
+                    tristique.</p>
+            </div>
+            <div class="experience-item">
+                <img src="./assets/item3.png" alt="item 3">
+                <h1>UI & UX Design</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum
+                    tristique.</p>
+            </div>
+            <div class="experience-item">
+                <img src="./assets/item4.png" alt="item 4">
+                <h1>Webflow Development</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum
+                    tristique.</p>
+            </div>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="about-left">
+            <img src="./assets/aboutImage.png" alt="about image">
+        </div>
+        <div class="about-right">
+            <p>About</p>
+            <h3>About me</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce varius faucibus massa sollicitudin amet
+                augue. Nibh metus a semper purus mauris duis. Lorem eu neque, tristique quis duis. Nibh scelerisque ac
+                adipiscing velit non nulla in amet pellentesque.
+
+                Sit turpis pretium eget maecenas. Vestibulum dolor mattis consectetur eget commodo vitae. Amet
+                pellentesque sit pulvinar lorem mi a, euismod risus r.
+            </p>
+        </div>
+    </section>
+    <section class="portfolio" id="portfolio">
+        <div class="portfolio-header">
+            <div class="portfolio-header__titles">
+                <p>Recent Projects</p>
+                <h3>My Portfolio</h3>
+            </div>
+            <button class="port-header__button">
+                <img src="./assets/buttonImage.png" alt="this is button image">
+                Visit My Dribbble
+            </button>
+        </div>
+        <div class="portfolio-cards">
+            <div class="portfolio-card">
+                <img src="./assets/portfolio1.png" alt="Portfolio 1">
+                <h3>Ahuse</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+                <button>
+                    View In Dribbble
+                    <img src="./assets/buttonIcon.png" alt="button icon">
+                </button>
+            </div>
+            <div class="portfolio-card">
+                <img src="./assets/portfolio2.png" alt="Portfolio 1">
+                <h3>Ahuse</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+                <button>
+                    View In Dribbble
+                    <img src="./assets/buttonIcon.png" alt="button icon">
+                </button>
+            </div>
+            <div class="portfolio-card">
+                <img src="./assets/portfolio3.png" alt="Portfolio 1">
+                <h3>Ahuse</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+                <button>
+                    View In Dribbble
+                    <img src="./assets/buttonIcon.png" alt="button icon">
+                </button>
+            </div>
+        </div>
+    </section>
+    <section class="contact-me" id="contact">
+        <div class="contact-container">
+            <p>Get In Touch</p>
+            <h3>Contact me</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+            <div class="contact-form">
+                <div class="form-name">
+                    <div class="form-name__input">
+                        <label>First name</label>
+                        <input type="text">
+                    </div>
+                    <div class="form-name__input">
+                        <label>Last name</label>
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="form-contact form-name">
+                    <div class="form-contact__input form-name__input">
+                        <label>Email</label>
+                        <input type="text">
+                    </div>
+                    <div class="form-contact__input form-name__input">
+                        <label>Phone</label>
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="form-message">
+                    <label>Message</label>
+                    <input type="text" placeholder="Type your message...">
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" id="accept" name="accept">
+                    <label for="accept">I accept the terms</label>
+                </div>
+                <button>Submit</button>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav class="footer-navbar">
+            <div class="navbar-logo">
+                <img src="./assets/logo.webp" alt="logo webp">
+            </div>
+            <div class="navbar-items">
+                <li class="navbar-item active">Home</li>
+                <li class="navbar-item">Portfolio</li>
+                <li class="navbar-item">About me</li>
+                <li class="navbar-item">Contact</li>
+            </div>
+            <div class="footer-icons">
+                <img src="./assets/facebook.png" alt="facebook">
+                <img src="./assets/instagram.png" alt="instagram">
+                <img src="./assets/x.png" alt="x">
+                <img src="./assets/lenkedin.png" alt="linkedin">
+            </div>
+        </nav>
+        <hr>
+        <div class="footer-end">
+            <p>Made with 💖 by Airdokan</p>
+            <div class="footer-rules">
+                <a href="./index.html">Privacy Policy</a>
+                <a href="./index.html">Terms of Service</a>
+                <a href="./index.html">Cookies Settings</a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
